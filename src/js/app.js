@@ -1,6 +1,3 @@
-// TODO: write your code here
-import sum from './basic';
+import status from './basic';
 
-console.log('worked');
-
-console.log(sum([1, 2]));
+console.log(status({ name: 'Test', health: 90 }));
